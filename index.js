@@ -17,6 +17,10 @@ bot.on('message',(msg) =>{
         case 'hi':
             msg.reply('Hello');
             break;
+        
+        case 'clode':
+            msg.reply('Raldo');
+        break;
     }
 });
 
