@@ -18,8 +18,8 @@ bot.on('message',(msg) =>{
             msg.reply('Hello');
             break;
         
-        case 'clode':
-            msg.reply('Raldo');
+        case 'what is my avatar':
+            msg.reply(msg.author.avatarURL);
         break;
     }
 });
